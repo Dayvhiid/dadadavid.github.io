@@ -1,0 +1,100 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+   margin: 0;
+   padding: 0;
+   overflow: auto;
+}
+.container{
+    /* height: 100%; */
+    display: flex;
+    overflow: auto;
+}
+.leftBar{
+    height: 100%;
+    width: 20%;
+    background-color: navy;
+    position: absolute;
+}
+.myname{
+    margin-top: 20%;
+    font-size: 2rem;
+    color: navy;
+}
+.mainContent{
+    margin-left: 25%;
+}
+.role{
+    margin-top: -7%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: navy;
+}
+.location{
+    display: flex;
+}
+.location-text{
+    margin-top: -0.5%;
+    margin-left: 2%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.telephone{
+    display: flex;
+}
+.telephone-text{
+    margin-left: 2%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.mail{
+    display: flex;
+    margin-top: 3%;
+}
+.mail-text{
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.textContent{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.skills{
+    display: flex;
+}
+.skillsText{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: navy;
+    margin-left: 3%;
+}
+.skillsImg{
+    margin-top: 5%;
+}
+.skillsList{
+    margin-left: -8%;
+}
+.education{
+    display: flex;
+}
+.eduImg{
+    margin-top: 6%;
+}
+.eduText{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: navy;
+    margin-left: 3%;
+}
+.degree{
+   font-size: 1rem;
+   font-weight: 900;
+}
+.school{
+   font-size: 1rem;
+   font-weight: 600;
+}
